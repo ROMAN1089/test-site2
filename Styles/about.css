@@ -1,0 +1,204 @@
+.main-individual-buy {
+    margin-top: 65px;
+}
+
+.main-individual-buy .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.individual-buy-text {
+    max-width: 660px;
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+.individual-buy-text h2 {
+    margin-bottom: 35px;
+}
+
+.individual-buy-text p {
+    margin-bottom: 30px;
+}
+
+.IB-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.IB-img-container div {
+    width: 360px;
+    height: 249px;
+    border-radius: 10px;
+}
+
+.IB-img-container div + div {
+    width: 260px;
+}
+
+.individual-buy-input {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 460px;
+    height: 602px;
+
+    box-sizing: border-box;
+    padding: 37px;
+    text-align: center;
+
+    border: 3px solid var(--pereklyuchatel);
+    border-radius: 15px;
+    
+    box-shadow: 0 0 20px 0 rgba(82, 82, 82, 0.12);
+    background: #fff;
+}
+
+.individual-buy-input h2 {
+    margin-bottom: 35px;
+
+    font-weight: 500;
+    font-size: 28px;
+    color: #000;
+}
+
+.individual-buy-input input {
+    border: 2px solid var(--card-stroke);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 23px 21px;
+    
+    height: 60px;
+    margin-bottom: 21px;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.individual-buy-input input:last-of-type {
+    height: 120px;
+    padding-right: 21px;
+}
+
+.individual-buy-input button {
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    border-radius: 10px;
+    padding: 15px 42px;
+    width: 300px;
+    height: 57px;
+
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+
+    border: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+    background: var(--pereklyuchatel);
+}
+
+.confedecial {
+    margin-top: 21px;
+
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: #646464;
+}
+
+.confedecial a {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #000;
+}
+
+.polit-confedeal p {
+    margin: 1px 0;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000;
+}
+
+.polit-confedeal h2 {
+    margin-top: 65px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000;
+}
+
+.main-optovikam {
+    margin-top: 80px;
+}
+
+.main-optovikam .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-in-opt h2 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #000;
+}
+
+.number-and-email-opt {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border: 2px solid var(--card-stroke);
+    border-radius: 15px;
+    padding: 28px 75px;
+    margin: 70px 0;
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+
+    max-width: 659px;
+    min-height: 107px;
+
+}
+
+.opt-cool-motivations {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 400;
+    font-size: 17px;
+    color: #000;
+}
+
+.OPT-text {
+    max-width: 359px;
+    min-height: 252px;
+}
+
+@media screen and (max-width: 810px) {
+    .individual-buy-input {
+        padding: 37px 0;
+    }
+
+    .IB-img-container div {
+        width: 260px;
+        height: 249px;
+    }
+
+    .IB-img-container div + div {
+        width: 200px;
+        height: 249px;
+    }
+}

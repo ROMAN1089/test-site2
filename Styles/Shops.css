@@ -1,0 +1,114 @@
+.maps-container-top {
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+}
+
+.maps-container-top h2 {
+    margin-top: 65px;
+    margin-bottom: 38px;
+}
+
+.maps-container-top ul {
+    margin-top: 38px;
+    margin-bottom: 60px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+
+    list-style: none;
+}
+
+.maps-container-top ul button {
+    border: 2px solid var(--pereklyuchatel);
+    border-radius: 15px;
+    padding: 10px 20px;
+    max-width: 211px;
+    height: 50px;
+
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #000;
+
+    box-shadow: 0 0 20px 0 rgba(82, 82, 82, 0.12);
+    background: #fff;
+}
+
+#current-map-button {
+    background: var(--pereklyuchatel);
+    color: #fff;
+}
+
+.maps {
+    height: 633px;
+}
+
+.maps iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.maps-list-container h2 {
+    margin-top: 93px;
+    margin-bottom: 70px;
+}
+
+.shops-lists-blocks-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.adress-list {
+    box-sizing: border-box;
+    width: 260px;
+    height: 480px;
+    padding: 26px 16px;
+
+    border: 2px solid var(--card-stroke);
+    border-radius: 10px;
+
+    box-shadow: 0 0 20px 0 rgba(82, 82, 82, 0.12);
+    background: #fff;
+}
+
+.adress-list h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+
+.adress-list hr {
+    border-color: #c3c3c3;
+}
+
+.adress-list p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #646464;
+
+    margin: 23px 0;
+}
+
+.adress-list ul {
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    font-weight: 300;
+    font-size: 15px;
+    color: #000;
+
+    list-style: none;
+}
+
+@media screen and (max-width: 810px) {
+    .maps {
+        height: 433px;
+    }
+}

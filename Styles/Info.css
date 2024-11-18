@@ -1,0 +1,217 @@
+.CIb-text {
+    box-sizing: border-box;
+    flex-basis: 540px;
+    padding: 60px 0;
+
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.company-informtions-block h2,
+.shapping-pay-container h2,
+.info-paying-container h2 {
+    margin-top: 65px;
+    margin-bottom: 50px;
+
+    font-weight: 600;
+    font-size: 25px;
+    color: #000;
+}
+
+.big-company-informations-block {
+    min-height: 403px;
+
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+    border-radius: 15px;
+    background: url("./../Assets/img/BigcompanyInfo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.big-CIb-border-text {
+    max-width: 816px;
+    min-height: 92px;
+    margin-bottom: 39px;
+
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+
+    border: 2px solid var(--pereklyuchatel);
+    border-radius: 54px;
+
+    box-shadow: 0 0 20px 0 rgba(82, 82, 82, 0.12);
+    background: #ffffff82;
+
+    transition: 800ms;
+}
+
+.first-company-informations-block {
+    min-height: 364px;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.first-company-informations-block .CIb-text {
+    padding-left: 34px;
+}
+
+.first-CIb-img {
+    border-radius: 10px;
+    flex-basis: 600px;
+    height: 364px;
+
+    background: url("./../Assets/img/CompanyInfoPr.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.second-company-informations-block {
+    min-height: 364px;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.second-company-informations-block .CIb-text {
+    padding-right: 34px;
+}
+
+.second-CIb-slider {
+    border-radius: 10px;
+    flex-basis: 600px;
+    height: 364px;
+
+    background: url("./../Assets/img/InfoBack.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* xczxcxzc */
+
+.shapping-pay-container h2 {
+    margin-bottom: 35px;
+}
+
+table.iksweb {
+    text-decoration: none;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+table.iksweb th {
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #354251;
+}
+
+table.iksweb td {
+    font-size: 13px;
+    color: #354251;
+}
+
+table.iksweb td,
+table.iksweb th {
+    white-space: pre-wrap;
+    padding: 20px 12px;
+    line-height: 13px;
+    vertical-align: middle;
+    border: 1px solid #354251;
+}
+
+table.iksweb tr:hover {
+    background-color: #f9fafb
+}
+
+table.iksweb tr:hover td {
+    color: #354251;
+    cursor: default;
+}
+
+.info-paying-container .CIb-text {
+    padding: 30px 0;
+    padding-left: 34px;
+}
+
+.first-info-paying-block {
+    min-height: 478px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-paying-list {
+    flex-basis: 615px;
+    min-height: 454px;
+}
+
+.info-paying-list li {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    font-weight: 300;
+    font-size: 15px;
+    color: #000;
+}
+
+.info-p-bb {
+    border-radius: 12px;
+    flex-basis: 71px;
+    height: 69px;
+
+    background: var(--pereklyuchatel);
+}
+
+.info-paying-f-img {
+    flex-basis: 521px;
+    height: 478px;
+    background: url("./../Assets/img/infoPaying.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+@media screen and (max-width: 810px) {
+    .big-CIb-border-text {
+        font-size: 18px;
+    }
+
+    .first-company-informations-block,
+    .second-company-informations-block {
+        gap: 15px;
+    }
+
+    .second-company-informations-block .CIb-text {
+        padding-right: 0;
+        padding-left: 34px;
+    }
+
+    .CIb-text {
+        padding: 30px 0;
+    }
+
+    .info-paying-f-img {
+        height: 364px;
+    }
+}
+
+@media (hover : hover) {
+    .big-CIb-border-text:hover {
+        background: #ffffff;
+    }
+}
